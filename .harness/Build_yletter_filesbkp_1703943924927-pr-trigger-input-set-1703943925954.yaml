@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_yletter_filesbkp_1703943924927-pr-trigger-input-set
+  identifier: Build_yletter_filesbkp_1703943924927prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_yletter_filesbkp_1703943924927
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
