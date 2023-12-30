@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_yletter_filesbkp_1703924879723-push-trigger-input-set
+  identifier: Build_yletter_filesbkp_1703924879723pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_yletter_filesbkp_1703924879723
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
