@@ -1,0 +1,14 @@
+inputSet:
+  pipeline:
+    identifier: Build_yletter_filesbkp_1703924879723
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
+  name: MyTemplateFB
+  identifier: MyTemplateFB
+  orgIdentifier: default
+  projectIdentifier: default_project
