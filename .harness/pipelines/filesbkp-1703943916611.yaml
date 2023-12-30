@@ -21,13 +21,17 @@ pipeline:
                   identifier: echo
                   name: echo
                   spec:
-                    command: echo hello world
+                    shell: Sh
+                    command: |-
+                      echo hello world
+                      ls -ls
+                      ls -R
                   timeout: ""
                   type: Run
           platform:
-            arch: Amd64
             os: Linux
+            arch: Amd64
           runtime:
-            spec: {}
             type: Cloud
+            spec: {}
         type: CI
