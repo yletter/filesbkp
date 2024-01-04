@@ -9,7 +9,10 @@
 
   <name>filesbkp</name>
   <url>http://maven.apache.org</url>
-
+<properties>
+   <maven.compiler.source>17</maven.compiler.source>
+   <maven.compiler.target>17</maven.compiler.target>
+ </properties>
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
 <dependency>
